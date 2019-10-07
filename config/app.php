@@ -157,6 +157,7 @@ return [
         Illuminate\Queue\QueueServiceProvider::class,
         Illuminate\Redis\RedisServiceProvider::class,
         Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
+        Moloquent\Auth\PasswordResetServiceProvider::class,
         Illuminate\Session\SessionServiceProvider::class,
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
@@ -181,7 +182,12 @@ return [
         */
 
         Jenssegers\Mongodb\MongodbServiceProvider::class,
-        
+
+        /*
+        moloquent
+        */
+        Moloquent\MongodbServiceProvider::class,
+
 
     ],
 

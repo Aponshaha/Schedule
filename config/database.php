@@ -42,6 +42,7 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+        
         'mongodb' => [
             'driver'   => 'mongodb',
             'host'     => env('DB_HOST', 'localhost'),
@@ -49,6 +50,7 @@ return [
             'database' => env('DB_DATABASE'),
             'username' => env('DB_USERNAME'),
             'password' => env('DB_PASSWORD'),
+            'use_mongo_id' => false,
             'options'  => [
                 'database' => 'admin' // sets the authentication database required by mongo 3
             ]

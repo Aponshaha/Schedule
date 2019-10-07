@@ -3,9 +3,10 @@
 namespace App;
 
 use Illuminate\Notifications\Notifiable;
-use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 use Illuminate\Auth\Authenticatable as Authenticatablerait;
 use Illuminate\Contracts\Auth\Authenticatable;
+use Moloquent\Eloquent\Model as Eloquent;
+
 
 
 
